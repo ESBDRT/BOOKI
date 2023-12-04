@@ -487,8 +487,28 @@ a {
         flex-direction: column;
     }
 
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
     .card {
         width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .navlinks ul {
