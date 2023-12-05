@@ -400,7 +400,7 @@ a {
     a {
         color: inherit;
         text-decoration: none;
-        width: auto;
+        width: 100%;
     }
   
     .header {
@@ -570,4 +570,11 @@ a {
         width: 35%;
     }
 
+    .MarseilleActivitesFrame {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: stretch;
+    }
 }
