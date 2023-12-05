@@ -332,6 +332,27 @@ a {
     padding: 20px 19px;
 }
 
+.FooterFrame {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    background: var(--Grey, #F2F2F2);
+}
+
+.FooterTitle {
+    justify-content: space-around;
+}
+
+.FooterPart {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -574,5 +595,11 @@ a {
         justify-content: flex-end;
         align-items: center;
         align-self: stretch;
+    }
+
+    .FooterFrame {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
     }
 }
