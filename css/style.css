@@ -354,6 +354,10 @@ a {
     align-self: stretch;
 }
 
+.AFplus {
+    text-align: left;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -440,9 +444,14 @@ a {
         padding-right: 0px;
     }
 
-    .navlinks ul:hover {
-        border-bottom: 3px solid #0065FC;
+    .navlinks ul li {
         width: 50%;
+        border-top: 0;
+    }
+
+    .navlinks ul li:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0;
     }
 
     .headline {
@@ -508,6 +517,10 @@ a {
         box-sizing: border-box;
     }
 
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
     .hebergements-img {
         height: auto;
         width: 100%;
@@ -528,6 +541,7 @@ a {
     .populaires {
         display: flex;
         flex-direction: column;
+        background-color: blue;
     }
 
     .populaires-cards {
@@ -566,12 +580,9 @@ a {
         display: flex;
         align-items: center;
         height: 100%;
-    }
-    
-    .navlinks ul li  {
         border-top: none;
-    
     }
+    
     
     .navlinks ul li:hover  {
         border-top: none;
