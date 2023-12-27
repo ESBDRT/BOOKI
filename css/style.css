@@ -549,7 +549,7 @@ a {
     }
 
     .hebergements-img {
-        height: auto;
+        object-fit: cover;
         width: 100%;
     }
 
