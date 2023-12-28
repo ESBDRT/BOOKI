@@ -454,6 +454,10 @@ a {
         width: 100%;
     }
   
+    .acard {
+        width: 100%;
+    }
+
     .header {
         display: flex;
         flex-direction: column;
@@ -623,6 +627,10 @@ a {
     
     .navlinks ul li:hover  {
         border-top: none;
+    }
+
+    .card-activites {
+        width: 100%;
     }
 
     .filters-button {
