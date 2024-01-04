@@ -429,7 +429,7 @@ a {
       .MarseilleActivitesCard {
         box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
         height: 270px;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 20px 20px 20px 20px;
     }
 
     .MarseilleActivitesName {  
